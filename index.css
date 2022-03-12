@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;  
+}
+
+.car-info h2{
+    margin-top: 1.2em;
+    margin-bottom: .8em;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+}
+
+.car-info p{
+    font-size: .8em;
+    line-height: 1.8;
+    color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 4em;
+}
+
+.car-info a{
+    text-decoration: none;
+    padding: .8em 1.5em;
+    background-color: white;
+    border-radius: 2em;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan-info{
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em 4em;
+    width: 50%;
+    min-width: 180px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.sedan-info a{
+    color: hsl(31, 77%, 52%);
+    font-size: .8em;
+}
+
+.sedan-info a:hover{
+    background-color: hsl(31, 77%, 52%);
+    font-size: .8em;
+    border: 2px solid white;
+    color: white;
+}
+
+.suv-info{
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em 4em;
+    width: 50%;
+    min-width: 180px;
+}
+
+.suv-info a{
+    color: hsl(184, 100%, 22%);
+    font-size: .8em;
+}
+
+.suv-info a:hover{
+    background-color: hsl(184, 100%, 22%);
+    font-size: .8em;
+    border: 2px solid white;
+    color: white;
+}
+
+.luxury-info{
+    background-color:hsl(179, 100%, 13%);
+    padding: 3em 4em;
+    width: 50%;
+    min-width: 180px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.luxury-info a{
+    color: hsl(179, 100%, 13%);
+    font-size: .8em;
+}
+
+.luxury-info a:hover{
+    background-color: hsl(179, 100%, 13%);
+    font-size: .8em;
+    border: 2px solid white;
+    color: white;
+}
+
+@media (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-info{
+        width: 100%;
+        min-width: 500px;
+        margin: 0 auto;
+    }
+
+    .car-info p{
+        margin-bottom: 2.5em;
+    }
+
+    .sedan-info{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+    }
+
+    .luxury-info{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+}
