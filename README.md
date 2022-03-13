@@ -19,7 +19,12 @@ The goal is to learn the basics of semantic HTML5 and CSS and also very good pro
 ## Screenshot
 
 ### Solution
-![](./NFT-component-preview.png)
+
+### Desktop Preview
+![](./images/Desktop-preview.png)
+
+### Mobile Preview
+![](./images/mobile-preview.png)
 
 
 ## Technologies I Used
